@@ -20,16 +20,12 @@ export const links: Array<{ platform: Platform; link: string }> = [
 	},
 	{
 		platform: Platform.Email,
-		link: 'riadh_adrani@hotmail.fr'
+		link: 'qivaijar@gmail.com'
 	},
 	{
-		platform: Platform.Youtube,
-		link: 'https://www.youtube.com'
+		platform: Platform.Instagram,
+		link: 'https://www.instagram.com/qivaijar/'
 	},
-	{
-		platform: Platform.Facebook,
-		link: 'https://www.facebook.com'
-	}
 ];
 
 export const skills = getSkills('js', 'css', 'html', 'reactjs', 'sass', 'svelte', 'ts');
