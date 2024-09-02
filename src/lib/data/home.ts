@@ -8,21 +8,15 @@ export const name = 'Rizki Rivai';
 export const lastName = 'Ginanjar';
 
 export const description =
-	'Hey there. I\'m a product';
+	`Hey there! I'm a product manager with 6 years of experience in the artificial intelligence (AI) field.
+	I started my career as a full-time researcher, then transitioned to an AI engineer, and now I'm the product manager of an AI-based product.
+	`;
 
 export const links: Array<{ platform: Platform; link: string }> = [
-	{ platform: Platform.GitHub, link: 'https://github.com/' },
+	{ platform: Platform.GitHub, link: 'https://github.com/qivaijar' },
 	{
 		platform: Platform.Linkedin,
-		link: 'https://www.linkedin.com/'
-	},
-	{
-		platform: Platform.Twitter,
-		link: 'https://twitter.com/'
-	},
-	{
-		platform: Platform.StackOverflow,
-		link: 'https://stackoverflow.com/'
+		link: 'https://www.linkedin.com/in/rizkirivaiginanjar/'
 	},
 	{
 		platform: Platform.Email,
