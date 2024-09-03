@@ -70,7 +70,10 @@ const Assets = {
 	Jest: a('jest.png'),
 	Unocss: a('unocss.svg'),
 	Ruvy: a('ruvy.svg'),
-	Postcss: a('postcss.svg')
+	Postcss: a('postcss.svg'),
+	SQL: a('sql.svg'),
+	Pytorch: a('pytorch.svg'),
+	Roadmap: a('roadmap.png')
 };
 
 export default Assets;
