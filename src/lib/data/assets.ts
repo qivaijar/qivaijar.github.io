@@ -73,7 +73,10 @@ const Assets = {
 	Postcss: a('postcss.svg'),
 	SQL: a('sql.svg'),
 	Pytorch: a('pytorch.svg'),
-	Roadmap: a('roadmap.png')
+	Roadmap: a('roadmap.png'),
+	UserResearch: a('user_research.png'),
+	Matlab: a('matlab.svg'),
+	GCP: a('gcp.svg')
 };
 
 export default Assets;

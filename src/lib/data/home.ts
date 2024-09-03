@@ -28,4 +28,15 @@ export const links: Array<{ platform: Platform; link: string }> = [
 	},
 ];
 
-export const skills = getSkills('roadmap', 'python', 'sql', 'svelte', 'postgres', 'pytorch');
+export const skills = getSkills(
+	'gcp',
+	'matlab',
+	'docker',
+	'roadmap',
+	'user_research',
+	'python',
+	'sql',
+	'svelte',
+	'postgres',
+	'pytorch'
+	);
