@@ -8,8 +8,9 @@ export const name = 'Rizki Rivai';
 export const lastName = 'Ginanjar';
 
 export const description =
-	`Hey there! I'm a product manager with 6 years of experience in the artificial intelligence (AI) field.
-	I started my career as a full-time researcher, then transitioned to an AI engineer, and now I'm the product manager of an AI-based product.
+	`I'm a dedicated Product Manager and Senior AI Engineer with a strong passion for bridging technology and business.
+	With a proven track record, including leading the development of Prosa TTS, a widely-used SaaS-based Text-to-Speech solution, I focus on creating innovative, user-centric products.
+	My dual expertise allows me to drive projects from both a technical and strategic perspective, ensuring they not only meet but exceed user expectations.
 	`;
 
 export const links: Array<{ platform: Platform; link: string }> = [
