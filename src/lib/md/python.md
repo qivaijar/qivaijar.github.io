@@ -1,7 +1,3 @@
-# Python Programming Language
-
----
-
 ## Introduction
 
 [Python](https://www.python.org/) is a high-level, interpreted programming language known for its readability, simplicity, and versatility. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming. Python's extensive standard library and active community make it a popular choice for a wide range of applications.
