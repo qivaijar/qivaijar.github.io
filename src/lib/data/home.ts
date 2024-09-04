@@ -39,5 +39,8 @@ export const skills = getSkills(
 	'sql',
 	'svelte',
 	'postgres',
-	'pytorch'
+	'pytorch',
+	'dvc',
+	'git',
+	'product_lifecycle'
 	);

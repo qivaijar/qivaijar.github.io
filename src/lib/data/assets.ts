@@ -14,7 +14,7 @@ const Assets = {
 	Cpp: a('cpp.svg'),
 	Celery: a('celery.svg'),
 	Django: a('django.svg'),
-	FastApi: a('fastapi'),
+	FastApi: a('fastapi.svg'),
 	Flask: a('flask.svg'),
 	Go: a('go.svg'),
 	Kafka: a('kafka.svg'),
@@ -76,7 +76,10 @@ const Assets = {
 	Roadmap: a('roadmap.png'),
 	UserResearch: a('user_research.png'),
 	Matlab: a('matlab.svg'),
-	GCP: a('gcp.svg')
+	GCP: a('gcp.svg'),
+	DVC: a('dvc.svg'),
+	Git: a('git.svg'),
+	Lifecycle: a('lifecycle.png')
 };
 
 export default Assets;
