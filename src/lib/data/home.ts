@@ -39,5 +39,9 @@ export const skills = getSkills(
 	'pytorch',
 	'dvc',
 	'git',
-	'product_lifecycle'
+	'product_lifecycle',
+	'pandas',
+	'numpy',
+	'sklearn',
+	'matplotlib',
 	);

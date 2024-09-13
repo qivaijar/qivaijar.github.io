@@ -79,7 +79,9 @@ const Assets = {
 	GCP: a('gcp.svg'),
 	DVC: a('dvc.svg'),
 	Git: a('git.svg'),
-	Lifecycle: a('lifecycle.png')
+	Lifecycle: a('lifecycle.png'),
+	Sklearn: a('scikit-learn.svg'),
+	Matplotlib: a('matplotlib.svg')
 };
 
 export default Assets;
