@@ -19,7 +19,7 @@
 
 Python is widely used in many areas of software development:
 
-- **Web Development**: Frameworks like Django, Flask, and Pyramid make it easy to build web applications.
+- **Web Development**: Frameworks like FastAPI, Django, Flask, and Pyramid make it easy to build web applications.
 - **Data Science and Machine Learning**: Libraries such as PyTorch, Tensorflow, and Pandas are popular in the data science community.
 - **Automation and Scripting**: Python is often used to automate repetitive tasks and write simple scripts.
 - **Software Development**: Python is used for developing desktop applications, games, and complex systems.
