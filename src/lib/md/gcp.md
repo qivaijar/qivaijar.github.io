@@ -11,7 +11,6 @@
 - **Cloud Storage and Databases**: GCP provides various storage options such as Cloud Storage for object storage, Cloud SQL for relational databases, and Cloud Firestore for NoSQL databases.
 - **DevOps and CI/CD**: GCP offers tools like Cloud Build, Kubernetes Engine, and Cloud Functions to streamline DevOps pipelines, enabling continuous integration and continuous delivery (CI/CD).
 
-
 <br/>
 
 ## Key Features
