@@ -50,14 +50,6 @@ export const items = [
 		category: 'pro-lang'
 	}),
 	defineSkill({
-		slug: 'roadmap',
-		color: '#66bb6a',
-		description: proadmap,
-		logo: Assets.Roadmap,
-		name: 'Product Roadmap',
-		category: 'prod'
-	}),
-	defineSkill({
 		slug: 'pytorch',
 		color: '#e65100',
 		description: 
@@ -92,15 +84,6 @@ export const items = [
 		logo: Assets.Docker,
 		name: 'Docker',
 		category: 'devtools'
-	}),
-	defineSkill({
-		slug: 'product_lifecycle',
-		color: '#FF6700',
-		description: 
-		'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
-		logo: Assets.Lifecycle,
-		name: 'Product Lifecycle Management',
-		category: 'prod'
 	}),
 	defineSkill({
 		slug: 'sql',
@@ -171,6 +154,23 @@ export const items = [
 		logo: Assets.Matlab,
 		name: 'MATLAB',
 		category: 'pro-lang'
+	}),
+	defineSkill({
+		slug: 'roadmap',
+		color: '#66bb6a',
+		description: proadmap,
+		logo: Assets.Roadmap,
+		name: 'Product Roadmap',
+		category: 'prod'
+	}),
+	defineSkill({
+		slug: 'product_lifecycle',
+		color: '#FF6700',
+		description: 
+		'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+		logo: Assets.Lifecycle,
+		name: 'Product Lifecycle Management',
+		category: 'prod'
 	}),
 	defineSkill({
 		slug: 'user_research',
