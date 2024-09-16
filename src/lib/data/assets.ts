@@ -81,7 +81,9 @@ const Assets = {
 	Git: a('git.svg'),
 	Lifecycle: a('lifecycle.png'),
 	Sklearn: a('scikit-learn.svg'),
-	Matplotlib: a('matplotlib.svg')
+	Matplotlib: a('matplotlib.svg'),
+	Kit: a('kit.jpg'),
+	Telkom: a('telkom.webp'),
 };
 
 export default Assets;

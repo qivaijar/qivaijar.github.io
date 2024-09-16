@@ -20,11 +20,14 @@
 		result = items.filter((it) => {
 			return (
 				it.degree.toLowerCase().includes(s) ||
+				it.major.toLowerCase().includes(s) ||
+				it.gpa.toLowerCase().includes(s) ||
 				it.description.toLowerCase().includes(s) ||
 				it.location.toLowerCase().includes(s) ||
 				it.name.toLowerCase().includes(s) ||
 				it.organization.toLowerCase().includes(s) ||
-				it.subjects.some((it) => it.toLowerCase().includes(s))
+				it.subjects.some((it) => it.toLowerCase().includes(s)) ||
+				it.activities.some((it) => it.toLowerCase().includes(s))
 			);
 		});
 	};
@@ -57,13 +60,16 @@
 								<img
 									src={getAssetURL(education.logo)}
 									alt={education.organization}
-									height="50"
-									width="50"
+									height="80"
+									width="80"
 									class="mb-5"
 								/>
 								<div class="text-[1.3em]">{education.degree}</div>
-								<div>{education.organization}</div>
+								<div class="text-[1.5em]">{education.organization}</div>
+								<div>{education.major}</div>
 								<div class="col text-[0.9em]">
+									<CardDivider />
+									GPA: {education.gpa}
 									<CardDivider />
 									<div class="row items-center gap-2">
 										<UIcon icon="i-carbon-location" />
@@ -72,13 +78,18 @@
 									<CardDivider />
 									<div class="row items-center gap-2">
 										<UIcon icon="i-carbon-time" />
-										{computeExactDuration(education.period.from, education.period.to)}
+										{education.period.from.toLocaleString('default', { month: 'long' })},
+										{education.period.from.getUTCFullYear()}
+										to
+										{education.period.to.toLocaleString('default', { month: 'long' })},
+										{education.period.to.getUTCFullYear()}
 									</div>
-									<CardDivider />
 								</div>
+								<CardDivider />
 								<div class="row flex-wrap gap-1">
-									{#each education.subjects as subject}
-										<Chip>{subject}</Chip>
+									{#each education.activities as activity}
+										- {activity}
+										<br />
 									{/each}
 								</div>
 							</div>

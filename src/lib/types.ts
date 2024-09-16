@@ -57,7 +57,7 @@ export interface Project<S extends string = string> extends Item<S> {
 	color: Color;
 	period: {
 		from: Date;
-		to?: Date;
+		to: Date;
 	};
 	type: string;
 	skills: Array<Skill<S>>;
@@ -72,10 +72,13 @@ export interface Experience<S extends string = string> extends Project<S> {
 export interface Education<S extends string = string> extends Item<S> {
 	organization: string;
 	location: string;
+	major: string,
 	period: {
 		from: Date;
-		to?: Date;
+		to: Date;
 	};
 	subjects: Array<string>;
 	degree: string;
+	gpa: string;
+	activities: Array<string>
 }
