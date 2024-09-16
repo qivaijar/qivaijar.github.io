@@ -20,4 +20,3 @@
 - **Less Boilerplate**: Svelte aims to minimize the amount of boilerplate code needed to build components. Since most logic is handled through simple JavaScript, Svelte code is typically shorter and easier to maintain than frameworks that require extensive use of state, props, or lifecycle methods.
 - **Scoped CSS**: Svelte allows you to write CSS directly inside your component files, and it automatically scopes the styles to that component. This prevents styling conflicts and improves the maintainability of styles in large projects.
 - **Simple Component Model**: Components in Svelte are written in a single file, which includes HTML, JavaScript, and CSS. This structure makes it easy to understand and maintain, especially for teams that prefer component-based architecture.
-

@@ -11,7 +11,6 @@
 - **Branching and Merging**: Git's branching model allows developers to work on multiple features simultaneously. Each branch is independent, and once a feature is complete, it can be merged back into the main codebase. This enables parallel development without conflicts.
 - **Continuous Integration and Delivery (CI/CD)**: Git integrates well with CI/CD pipelines, where code is automatically tested and deployed. Whenever a developer pushes changes to a Git repository, automated tests can be run to ensure the new code works correctly, streamlining the development process.
 
-
 <br/>
 
 ## Key Features

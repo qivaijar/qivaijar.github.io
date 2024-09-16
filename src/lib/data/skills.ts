@@ -106,14 +106,14 @@ export const items = [
 		slug: 'fastapi',
 		color: '#00FA9A',
 		description: fastapi,
-		logo: Assets.FastApi,		
+		logo: Assets.FastApi,
 		name: 'FastApi',
 		category: 'framework'
 	}),
 	defineSkill({
 		slug: 'numpy',
 		color: '#1974d2',
-		description: numpy, 
+		description: numpy,
 		logo: Assets.Numpy,
 		name: 'NumPy',
 		category: 'library'
@@ -129,7 +129,7 @@ export const items = [
 	defineSkill({
 		slug: 'sklearn',
 		color: '#FFA600',
-		description: sklearn, 
+		description: sklearn,
 		logo: Assets.Sklearn,
 		name: 'scikit-learn',
 		category: 'library'
@@ -153,7 +153,7 @@ export const items = [
 	defineSkill({
 		slug: 'matlab',
 		color: '#ff5733',
-		description:matlab,			
+		description: matlab,
 		logo: Assets.Matlab,
 		name: 'MATLAB',
 		category: 'pro-lang'
@@ -197,8 +197,7 @@ export const items = [
 		logo: Assets.Svelte,
 		name: 'Svelte',
 		category: 'framework'
-	}),
-
+	})
 ] as const;
 
 export const title = 'Skills';

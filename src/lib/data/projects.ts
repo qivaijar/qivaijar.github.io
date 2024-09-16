@@ -6,13 +6,14 @@ export const items: Array<Project> = [
 	{
 		slug: 'prosa-tts',
 		color: '#6AFB92',
-		description: "",
-		shortDescription: "Transform Your Content with Premium Synthetic Voice Solutions for Bahasa Indonesia",
-		links: [{ to: 'https://tts.prosa.ai/', label: 'Homepage', newTab: true}],
+		description: '',
+		shortDescription:
+			'Transform Your Content with Premium Synthetic Voice Solutions for Bahasa Indonesia',
+		links: [{ to: 'https://tts.prosa.ai/', label: 'Homepage', newTab: true }],
 		logo: Assets.Prosatts,
 		name: 'Prosa Text-to-Speech (TTS)',
 		period: {
-			from: new Date("2021-04")
+			from: new Date('2021-04')
 		},
 		skills: getSkills(),
 		type: 'Text-to-Speech (TTS) Solution Provider from Indonesia'
@@ -20,17 +21,16 @@ export const items: Array<Project> = [
 	{
 		slug: 'rizki-portfolio-svelte',
 		color: '#0AFFFF',
-		description:'',
-		shortDescription:
-			'My personal portfolio website.',
+		description: '',
+		shortDescription: 'My personal portfolio website.',
 		links: [{ to: 'https://github.com/qivaijar/rizki-svelte-portfolio', label: 'GitHub' }],
 		logo: Assets.Qivaijar,
 		name: 'My Portfolio Website',
 		period: {
-			from: new Date("2024-09")
+			from: new Date('2024-09')
 		},
 		skills: getSkills('svelte'),
-		type: 'Portfolio Website',
+		type: 'Portfolio Website'
 		// screenshots: [
 		// 	{
 		// 		label: 'screen 1',

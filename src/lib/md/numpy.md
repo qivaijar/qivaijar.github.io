@@ -11,7 +11,6 @@
 - **Image and Signal Processing**: NumPy is used in image and signal processing for manipulating pixel data in images and audio signals. It allows for efficient manipulation of arrays representing image and audio data, making it ideal for applications in computer vision, audio analysis, and graphics.
 - **Data Analysis**: NumPy is frequently used in data analysis for handling large datasets and performing various statistical operations. With its efficient memory management, it allows operations on arrays and matrices that are significantly faster than using pure Python loops.
 
-
 <br/>
 
 ## Key Features

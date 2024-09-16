@@ -8,7 +8,7 @@ export const name = 'Rizki Rivai';
 
 export const lastName = 'Ginanjar';
 
-export const description = desc
+export const description = desc;
 
 export const links: Array<{ platform: Platform; link: string }> = [
 	{ platform: Platform.GitHub, link: 'https://github.com/qivaijar' },
@@ -23,7 +23,7 @@ export const links: Array<{ platform: Platform; link: string }> = [
 	{
 		platform: Platform.Instagram,
 		link: 'https://www.instagram.com/qivaijar/'
-	},
+	}
 ];
 
 export const skills = getSkills(
@@ -43,5 +43,5 @@ export const skills = getSkills(
 	'pandas',
 	'numpy',
 	'sklearn',
-	'matplotlib',
-	);
+	'matplotlib'
+);

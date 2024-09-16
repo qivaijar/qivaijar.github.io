@@ -22,4 +22,3 @@
 - **Dependency Injection**: FastAPI has a powerful dependency injection system, allowing for clean and reusable code. Dependencies can be managed easily, whether for handling authentication, database connections, or other utilities.
 - **Security**: FastAPI provides built-in support for OAuth2, JWT tokens, and other common security practices, helping developers secure their APIs without much additional work.
 - **Production-Ready**: With built-in performance optimization, FastAPI is ready for production use, making it a favorite for startups and large companies alike.
-

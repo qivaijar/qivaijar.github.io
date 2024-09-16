@@ -13,7 +13,7 @@ Additionally, I am responsible for designing the product roadmap, managing the b
 - Developed both short-term and long-term product roadmaps.
 - Managed product backlogs based on insights from various stakeholders.
 - Managed a cross-functional team of product UI/UX designers and software engineers, guiding them through the entire software development lifecycle, from planning to maintenance.
-- Collaborated with the marketing team on announcing newly developed features and improvements, increasing the number of **new users** by **23%** over **8  Months**.
+- Collaborated with the marketing team on announcing newly developed features and improvements, increasing the number of **new users** by **23%** over **8 Months**.
 - Gathered data from various sources and analyzed product metrics to identify areas for improvement.
 - Worked with the support team to address and resolve user complaints.
 - Managed product-related documentation, such as product requirement documents (PRDs), user feedback, and periodic product reports.
