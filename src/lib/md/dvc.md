@@ -19,4 +19,3 @@
 - **Storage Agnostic**: DVC integrates with a variety of storage backends, including cloud storage (e.g., AWS S3, Google Cloud, Azure), network drives, and even local storage. It keeps a lightweight reference to your data in Git, while the actual data resides in external storage, making it more scalable.
 - **Pipeline Management**: DVC supports building complex machine learning pipelines. It allows you to track the entire workflow, from data preparation to model training and evaluation, ensuring that any change in data, code, or configuration triggers a new pipeline execution.
 - **Integrates with Git**: DVC seamlessly integrates with Git, allowing you to use familiar version control commands. The `dvc add`, `dvc commit`, and `dvc push` commands work similarly to Git commands, simplifying the learning curve.
-

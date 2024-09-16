@@ -11,7 +11,6 @@
 - **Model Evaluation and Validation**: Scikit-learn offers numerous methods for evaluating machine learning models, such as cross-validation, train-test splits, and performance metrics like accuracy, precision, recall, and F1-score. These tools ensure that models generalize well to unseen data and avoid overfitting.
 - **Feature Selection**: In scenarios where datasets have many features, Scikit-learn provides feature selection tools to help identify the most relevant features, improving model performance and interpretability. This is commonly used in applications like bioinformatics, where the number of features (genes, proteins) can be overwhelming.
 
-
 <br/>
 
 ## Key Features

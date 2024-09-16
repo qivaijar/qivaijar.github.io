@@ -15,4 +15,3 @@ Product Lifecycle Management is a strategic process used by organizations to man
 **4. Deployment**: Once testing is complete, the product or feature is ready to be deployed into the production environment.
 
 **5. Maintenance**: After the product is deployed, the maintenance phase focuses on supporting the product or feature and making improvements as needed.
-

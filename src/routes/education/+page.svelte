@@ -59,7 +59,7 @@
 							<div class="flex-1 col gap-2 items-start">
 								<img
 									src={getAssetURL(education.logo)}
-									alt={education.organization}											
+									alt={education.organization}
 									class="responsive-image"
 								/>
 								<div class="text-[1.3em]">{education.degree}</div>

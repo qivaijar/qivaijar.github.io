@@ -31,7 +31,7 @@
 						<p class="text-[var(--main-close)]">{group.category.name}</p>
 						<div class="flex-1 bg-[var(--main-hover)] h-[1px]" />
 					</div>
-					<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-3 lg:gap-5 ">
+					<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-3 lg:gap-5">
 						{#each group.items as skill (skill.slug)}
 							<Card
 								classes={['cursor-pointer decoration-none']}
