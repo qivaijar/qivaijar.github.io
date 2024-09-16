@@ -22,7 +22,7 @@ const config = {
 			'@utils': './src/lib/utils'
 		},
 		paths: {
-			base: '/rizki-svelte-portfolio',
+			base: process.env.NODE_ENV === 'production' ? '/rizki-svelte-portfolio' : '',
 		}
 	}
 };
