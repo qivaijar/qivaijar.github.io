@@ -1,4 +1,4 @@
-import{P as a}from"./types.46547d9a.js";import{g as t}from"./skills.0b5aac43.js";const n=`As a <b>Senior artificial intelligence (AI) Engineer</b> and <b>Technical Product Manager</b>, I am
+import{P as a}from"./types.46547d9a.js";import{g as t}from"./skills.1a0715f7.js";const n=`As a <b>Senior artificial intelligence (AI) Engineer</b> and <b>Technical Product Manager</b>, I am
 passionate about advancing AI technology. I currently lead the development of
 <a href="https://tts.prosa.ai/" target="_blank">Prosa TTS</a>, an AI-driven Text-to-Speech (TTS)
 solution widely adopted in Indonesia. My focus is on leveraging AI to create innovative,
