@@ -3,28 +3,42 @@ import type { Education } from '../types';
 
 export const items: Array<Education> = [
 	{
-		degree: 'Bachelor degree of Computer Science',
-		description: '',
-		location: 'Tunisia',
-		logo: Assets.Unknown,
+		degree: 'Master of Engineering',
+		description: "",
+		location: 'Gumi-si, South Korea',
+		major: "Information Technology (IT) Convergence Engineering",
+		logo: Assets.Kit,
 		name: '',
-		organization: 'ISTIC',
-		period: { from: new Date(2020, 0, 1), to: new Date(2022, 5, 1) },
+		organization: 'Kumoh National Institute of Technology (KIT)',
+		period: { from: new Date("2018-02"), to: new Date("2020-01") },
 		shortDescription: '',
-		slug: 'dummy-education-item',
-		subjects: ['C', 'Algorithm', 'Algebra', 'Python', 'C++', 'Java', 'English']
+		slug: 'kumoh',
+		subjects: [],
+		gpa: "4.38 / 4.50",
+		activities: [
+			"Brain Korea 21 (BK21) Scholarship Awardee",
+			"Networked System Laboratory (NSL) Member"
+		]
 	},
 	{
-		degree: 'PhD of Computer Science',
-		description: '',
-		location: 'USA',
-		logo: Assets.Unknown,
+		degree: 'Bachelor of Engineering',
+		description: "",
+		location: 'Bandung, Indonesia',
+		major: "Telecommunication Engineering",
+		logo: Assets.Telkom,
 		name: '',
-		organization: 'MIT',
-		period: { from: new Date(2023, 0, 1) },
+		organization: 'Telkom University',
+		period: { from: new Date("2013-08"), to: new Date("2017-01") },
 		shortDescription: '',
-		slug: 'dummy-education-item-2',
-		subjects: ['Assembly', 'Rust', 'Computer Architecture', 'Algorithms and Data structures']
+		slug: 'telkom',
+		subjects: [],
+		gpa: "3.83 / 4.00",
+		activities: [
+			"Cum laude Graduate",
+			"Teaching Assistant, Digital Signal Processing (DSP)",
+			"Digital Engineering Laboratory, Practicum Assistant",
+			"Eka Sanvadita Orchestra (ESO), Pianist",
+		]
 	}
 ];
 

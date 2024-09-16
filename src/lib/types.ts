@@ -6,7 +6,7 @@ export enum Platform {
 	Twitter = 'twitter',
 	Linkedin = 'linkedin',
 	Email = 'email',
-	Facebook = 'facebook',
+	Instagram = 'instagram',
 	Youtube = 'youtube'
 }
 
@@ -72,10 +72,13 @@ export interface Experience<S extends string = string> extends Project<S> {
 export interface Education<S extends string = string> extends Item<S> {
 	organization: string;
 	location: string;
+	major: string,
 	period: {
 		from: Date;
-		to?: Date;
+		to: Date;
 	};
 	subjects: Array<string>;
 	degree: string;
+	gpa: string;
+	activities: Array<string>
 }

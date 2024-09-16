@@ -14,7 +14,7 @@ const Assets = {
 	Cpp: a('cpp.svg'),
 	Celery: a('celery.svg'),
 	Django: a('django.svg'),
-	FastApi: a('fastapi'),
+	FastApi: a('fastapi.svg'),
 	Flask: a('flask.svg'),
 	Go: a('go.svg'),
 	Kafka: a('kafka.svg'),
@@ -70,7 +70,24 @@ const Assets = {
 	Jest: a('jest.png'),
 	Unocss: a('unocss.svg'),
 	Ruvy: a('ruvy.svg'),
-	Postcss: a('postcss.svg')
+	Postcss: a('postcss.svg'),
+	SQL: a('sql.svg'),
+	Pytorch: a('pytorch.svg'),
+	Roadmap: a('roadmap.png'),
+	UserResearch: a('user_research.png'),
+	Matlab: a('matlab.svg'),
+	GCP: a('gcp.svg'),
+	DVC: a('dvc.svg'),
+	Git: a('git.svg'),
+	Lifecycle: a('lifecycle.png'),
+	Sklearn: a('scikit-learn.svg'),
+	Matplotlib: a('matplotlib.svg'),
+	Kit: a('kit.jpg'),
+	Telkom: a('telkom.webp'),
+	Prosa: a('prosa.png'),
+	Nsl: a('nsl.png'),
+	Prosatts: a('prosatts.png'),
+	Qivaijar: a('qivaijar.webp')
 };
 
 export default Assets;
