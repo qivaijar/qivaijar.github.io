@@ -86,6 +86,8 @@ const Assets = {
 	Telkom: a('telkom.webp'),
 	Prosa: a('prosa.png'),
 	Nsl: a('nsl.png'),
+	Prosatts: a('prosatts.png'),
+	Qivaijar: a('qivaijar.webp')
 };
 
 export default Assets;

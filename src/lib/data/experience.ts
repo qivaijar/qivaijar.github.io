@@ -42,7 +42,7 @@ export const items: Array<Experience> = [
 		type: 'Software Development (NLP-Based AI Products)',
 		location: 'Bandung, Indonesia',
 		period: { from: new Date("2021-07") },
-		skills: getSkills('python', 'docker', 'pytorch', 'dvc', 'git', 'pandas', 'numpy', 'sklearn', 'matplotlib'),
+		skills: getSkills('python', 'docker', 'pytorch', 'dvc', 'git', 'pandas', 'numpy', 'sklearn', 'fastapi', 'matplotlib'),
 		name: 'Senior Artificial Intelligence (AI) Engineer',
 		color: '#6AFB92',
 		links: [
