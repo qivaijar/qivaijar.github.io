@@ -4,21 +4,22 @@ import type { Project } from '../types';
 
 export const items: Array<Project> = [
 	{
-		slug: 'slick-portfolio-angular',
-		color: '#5e95e3',
+		slug: 'prosa-tts',
+		color: '#046307',
 		description:
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
 		shortDescription:
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
-		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
+		links: [{ to: 'https://tts.prosa.ai/', label: 'Product Homepage' }],
 		logo: Assets.Unknown,
-		name: 'Slick Portfolio',
+		name: 'Prosa Text-to-Speech (TTS)',
 		period: {
 			from: new Date()
 		},
 		skills: getSkills('angular', 'ts', 'tailwind'),
 		type: 'Website Template'
 	},
+
 	{
 		slug: 'slick-portfolio-svelte',
 		color: '#ff3e00',

@@ -6,7 +6,7 @@
 
 ## Applications of FastAPI
 
-- **Machine Learning Models Deployment**: FastAPI is a popular choice for deploying machine learning models due to its speed and simplicity. You can easily integrate FastAPI with libraries like TensorFlow or Scikit-learn to create APIs that serve models.
+- **Machine Learning Models Deployment**: FastAPI is a popular choice for deploying machine learning models due to its speed and simplicity. You can easily integrate FastAPI with libraries like Pytorch, TensorFlow or Scikit-learn to create APIs that serve models.
 - **RESTful APIs**: FastAPI is commonly used to build RESTful APIs for web applications or services. It can handle CRUD operations, user authentication, and data validation seamlessly.
 - **Microservices Architecture**: FastAPI’s modular design makes it a good fit for developing microservices, where you can build small, independent services that interact with each other.
 - **Data-Driven Applications**: Due to its seamless integration with databases, FastAPI is widely used in building applications that require frequent data manipulation, like dashboards or analytical systems.

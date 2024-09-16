@@ -20,5 +20,5 @@
 - **Tensor Computing**: Similar to NumPy, PyTorch supports multi-dimensional arrays (tensors) and provides numerous operations for tensor manipulation, including on GPUs, which significantly speeds up computation.
 - **GPU Acceleration**: PyTorch has built-in support for CUDA, allowing seamless usage of GPU acceleration to enhance the speed of deep learning model training and inference.
 - **TorchScript**: PyTorch allows developers to switch between eager execution mode (default) and graph execution (via TorchScript) for production environments. This makes it easy to scale models for deployment while still benefiting from PyTorch’s flexibility during the research phase.
-- **Rich Ecosystem**: PyTorch has a broad ecosystem with several tools and libraries (e.g., TorchVision, PyTorch Lightning, Hugging Face) that simplify various tasks in computer vision, natural language processing, and reinforcement learning.
+- **Rich Ecosystem**: PyTorch has a broad ecosystem with several tools and libraries (e.g., TorchVision, PyTorch Lightning) that simplify various tasks in computer vision, natural language processing, and reinforcement learning.
 
