@@ -84,6 +84,8 @@ const Assets = {
 	Matplotlib: a('matplotlib.svg'),
 	Kit: a('kit.jpg'),
 	Telkom: a('telkom.webp'),
+	Prosa: a('prosa.png'),
+	Nsl: a('nsl.png'),
 };
 
 export default Assets;
