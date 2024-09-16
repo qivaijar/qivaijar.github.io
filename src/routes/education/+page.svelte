@@ -56,13 +56,11 @@
 					</div>
 					<div class="col flex-1 items-stretch">
 						<Card>
-							<div class="flex-1 col gap-2 items-stretch">
+							<div class="flex-1 col gap-2 items-start">
 								<img
 									src={getAssetURL(education.logo)}
-									alt={education.organization}
-									height="80"
-									width="80"
-									class="mb-5"
+									alt={education.organization}											
+									class="responsive-image"
 								/>
 								<div class="text-[1.3em]">{education.degree}</div>
 								<div class="text-[1.5em]">{education.organization}</div>
