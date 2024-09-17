@@ -1,4 +1,4 @@
-import{A as e}from"./UIcon.82346d6e.js";import{g as n}from"./skills.eecec487.js";import{C as o}from"./types.46547d9a.js";const t=`## About
+import{A as e}from"./UIcon.70478e9d.js";import{g as n}from"./skills.413526d3.js";import{C as o}from"./types.46547d9a.js";const t=`## About
 
 I was promoted to Product Manager for Prosa TTS in January 2024. I oversee the product development process, starting from feature discovery based on feedback from stakeholders, task prioritization for each release version, and supervision of UI/UX design with product designers. I also manage feature development with backend and frontend engineers, testing in the staging environment with QA engineers followed by bug fixing, model deployment to production, testing in the production environment, and ongoing product and feature maintenance.
 
