@@ -1,5 +1,5 @@
 <script>
-	import { data, title } from '@data/resume';
+	import { title } from '@data/resume';
 	import { onMount } from "svelte";
   	let PdfViewer;
 
@@ -10,11 +10,13 @@
 
 	import Chip from '$lib/components/Chip/Chip.svelte';
 	import CommonPage from '$lib/components/CommonPage.svelte';
+
+	const resumeUrl = `${import.meta.env.BASE_URL}resume/resume.pdf`;
 </script>
 
 <CommonPage {title}>
 	<div class="resume">
-		{#if data}
+		{#if resumeUrl}
 			<!-- <a href={data} download>
 				<Chip size={'1.25em'}>Download</Chip>
 			</a> -->
@@ -27,7 +29,7 @@
 			/> -->
 
 			<svelte:component this={PdfViewer}
-			url='/resume/{data}' 
+			url= {resumeUrl} 
 			showBorder={false}
 			pageNum = {1}
 			showButtons={["navigation", "zoom", 'print', "download"]}
