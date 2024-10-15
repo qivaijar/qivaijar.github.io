@@ -27,7 +27,7 @@
 			/> -->
 
 			<svelte:component this={PdfViewer}
-			url='src/lib/data/{data}' 
+			url='../src/lib/data/{data}' 
 			showBorder={false}
 			pageNum = {1}
 			showButtons={["navigation", "zoom", 'print', "download"]}
