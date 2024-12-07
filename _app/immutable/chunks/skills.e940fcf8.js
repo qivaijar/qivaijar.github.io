@@ -1,4 +1,4 @@
-import{A as e}from"./UIcon.c4fd327d.js";const u=`## Introduction
+import{A as e}from"./UIcon.21837da1.js";const u=`## Introduction
 
 [Svelte](https://svelte.dev/) is a modern front-end framework for building user interfaces. Unlike traditional frameworks like React or Vue, which perform most of their work in the browser, Svelte shifts that work to compile time. It compiles your application into highly efficient, imperative JavaScript that runs in the browser, leading to faster performance and smaller bundle sizes. This makes Svelte particularly attractive for building fast and lightweight web applications with minimal overhead.
 
