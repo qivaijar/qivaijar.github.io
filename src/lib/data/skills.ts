@@ -18,6 +18,8 @@ import gcp from '../md/gcp.md?raw';
 import plm from '../md/plm.md?raw';
 import uxr from '../md/uxr.md?raw';
 import postgres from '../md/postgres.md?raw';
+import oci from '../md/oci.md?raw';
+import langchain from '../md/langchain.md?raw';
 import { omit, type StringWithAutoComplete } from '@riadh-adrani/utils';
 
 const defineSkillCategory = <S extends string>(data: SkillCategory<S>): SkillCategory<S> => data;
@@ -196,6 +198,22 @@ export const items = [
 		description: svelte,
 		logo: Assets.Svelte,
 		name: 'Svelte',
+		category: 'framework'
+	}),
+	defineSkill({
+		slug: 'oci',
+		color: '#F80000',
+		description: oci,
+		logo: Assets.OCI,
+		name: 'Oracle Cloud Infrastructure (OCI)',
+		category: 'cloud'
+	}),
+	defineSkill({
+		slug: 'langchain',
+		color: '#1C3C3C',
+		description: langchain,
+		logo: Assets.LangChain,
+		name: 'LangChain',
 		category: 'framework'
 	})
 ] as const;

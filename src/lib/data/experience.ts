@@ -5,8 +5,31 @@ import prodman from '../md/prodman.md?raw';
 import seniorai from '../md/seniorai.md?raw';
 import juniorai from '../md/juniorai.md?raw';
 import nsl from '../md/nsl.md?raw';
+import oracle from '../md/oracle.md?raw';
 
 export const items: Array<Experience> = [
+	{
+		slug: 'oracle-ai',
+		company: 'Oracle Corporation',
+		description: oracle,
+		contract: ContractType.FullTime,
+		type: 'AI Solution Design & Deployment',
+		location: 'Jakarta, Indonesia',
+		period: { from: new Date('2025-03') },
+		skills: getSkills('python', 'sql', 'git', 'docker', 'fastapi', 'oci', 'langchain'),
+		name: 'Artificial Intelligence (AI) Solution Engineer',
+		color: '#F80000',
+		links: [
+			{
+				to: 'https://www.oracle.com/',
+				label: "Oracle's Homepage",
+				newTab: true
+			}
+		],
+		logo: Assets.Oracle,
+		shortDescription:
+			'Design and deploy enterprise-grade AI solutions on Oracle Cloud Infrastructure (OCI) for clients across JAPAC.'
+	},
 	{
 		slug: 'prosa-prod-man',
 		company: 'Prosa.ai',
@@ -14,7 +37,7 @@ export const items: Array<Experience> = [
 		contract: ContractType.FullTime,
 		type: 'Software Development (NLP-Based AI Products)',
 		location: 'Bandung, Indonesia',
-		period: { from: new Date('2024-01') },
+		period: { from: new Date('2024-01'), to: new Date('2025-03') },
 		skills: getSkills('gcp', 'sql', 'postgres', 'product_lifecycle', 'user_research', 'roadmap'),
 		name: 'Technical Product Manager',
 		color: '#6aFB92',
@@ -41,7 +64,7 @@ export const items: Array<Experience> = [
 		contract: ContractType.FullTime,
 		type: 'Software Development (NLP-Based AI Products)',
 		location: 'Bandung, Indonesia',
-		period: { from: new Date('2021-07') },
+		period: { from: new Date('2021-07'), to: new Date('2025-03') },
 		skills: getSkills(
 			'python',
 			'docker',

@@ -27,21 +27,24 @@ export const links: Array<{ platform: Platform; link: string }> = [
 ];
 
 export const skills = getSkills(
-	'gcp',
-	'matlab',
-	'docker',
-	'roadmap',
-	'user_research',
 	'python',
-	'sql',
-	'svelte',
-	'postgres',
 	'pytorch',
-	'dvc',
+	'oci',
+	'langchain',
+	'docker',
+	'fastapi',
 	'git',
-	'product_lifecycle',
+	'sql',
+	'postgres',
+	'gcp',
+	'dvc',
 	'pandas',
 	'numpy',
 	'sklearn',
-	'matplotlib'
+	'matplotlib',
+	'matlab',
+	'roadmap',
+	'user_research',
+	'product_lifecycle',
+	'svelte'
 );

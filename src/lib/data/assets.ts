@@ -87,7 +87,10 @@ const Assets = {
 	Prosa: a('prosa.png'),
 	Nsl: a('nsl.png'),
 	Prosatts: a('prosatts.png'),
-	Qivaijar: a('qivaijar.webp')
+	Qivaijar: a('qivaijar.webp'),
+	Oracle: a('oracle.svg'),
+	OCI: a('oci.svg'),
+	LangChain: a('langchain.svg')
 };
 
 export default Assets;
